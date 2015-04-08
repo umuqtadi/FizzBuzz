@@ -21,6 +21,8 @@ namespace FizzBuzz
          // if dvisible by 3 == fizz
         // if divisible by 5 == buzz
         // if divisible by both == fizzbuzz
+        // if not divisible either return list of numbers that are not
+
             if (number%3 == 0 && number%5 == 0)
             {
                 return "fizzbuzz";
